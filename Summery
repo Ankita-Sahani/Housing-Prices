@@ -1,0 +1,20 @@
+# Project Summary
+
+This project focuses on predicting house prices using machine learning algorithms. The Housing dataset consists of 545 records and includes features such as area, bedrooms, bathrooms, stories, parking spaces, furnishing status, air conditioning, and location-related attributes.
+Data preprocessing was performed by checking for missing values, removing duplicate records, and converting categorical variables into numerical format through encoding techniques. The cleaned dataset was then split into 80% training data and 20% testing data.
+Two machine learning models were developed and evaluated:
+•	Linear Regression
+•	Random Forest Regressor
+
+# Results:
+•	Linear Regression achieved an R² Score of approximately 0.65, indicating that the model explains around 65% of the variation in house prices.
+•	Random Forest Regressor was also trained and compared using MAE, RMSE, and R² evaluation metrics.
+•	The comparison showed that machine learning models can effectively estimate house prices based on property characteristics.
+
+# Key Findings:
+•	House area and number of bathrooms were identified as the most influential factors affecting price.
+•	Features such as parking availability and air conditioning also showed a positive impact on property value.
+•	Data visualizations including histograms, correlation heatmaps, and actual vs. predicted plots helped in understanding feature relationships and model performance.
+
+# Conclusion:
+The project successfully demonstrated the complete machine learning workflow, including data cleaning, exploratory data analysis, model training, evaluation, and visualization. The developed models provide valuable insights for real estate price estimation and support data-driven decision-making in the housing sector.
