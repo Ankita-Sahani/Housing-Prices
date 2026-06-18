@@ -1,0 +1,32 @@
+## Libraries and Packages Used
+
+### Pandas
+
+Used for data loading, cleaning, preprocessing, and manipulation of the housing dataset.
+
+### NumPy
+
+Provides support for numerical computations, mathematical operations, and array processing.
+
+### Matplotlib
+
+Used to create visualizations such as histograms and scatter plots for data analysis.
+
+### Seaborn
+
+Provides advanced statistical visualizations, including correlation heatmaps and distribution plots.
+
+### Scikit-learn
+
+Machine Learning library used for model development and evaluation.
+
+**Modules Used:**
+
+* `train_test_split` – Splits data into training and testing sets.
+* `LinearRegression` – Implements the Linear Regression algorithm.
+* `RandomForestRegressor` – Implements the Random Forest Regression model.
+* `mean_absolute_error` – Calculates prediction error.
+* `mean_squared_error` – Measures model accuracy.
+* `r2_score` – Evaluates model performance using the R² metric.
+
+These libraries were used for data preprocessing, exploratory data analysis (EDA), visualization, machine learning model training, and performance evaluation in the Housing Price Prediction project.
